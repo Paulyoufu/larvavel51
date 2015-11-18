@@ -49,12 +49,14 @@
       <file leaf-file-name="SitesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SitesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3402778">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.30555555">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding>
-                <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
-                <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
-                <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
+                <marker date="1447829373000" expanded="true" signature="430:439" placeholder="..." />
+                <marker date="1447829373000" expanded="true" signature="575:586" placeholder="..." />
+                <marker date="1447829373000" expanded="true" signature="641:651" placeholder="..." />
+                <marker date="1447829373000" expanded="true" signature="741:752" placeholder="..." />
+                <marker date="1447829373000" expanded="true" signature="797:807" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -136,8 +138,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-181" />
-    <option name="y" value="479" />
+    <option name="x" value="41" />
+    <option name="y" value="26" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -358,7 +360,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-181" y="479" width="1440" height="813" extended-state="0" />
+    <frame x="41" y="26" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -412,9 +414,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
-            <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
-            <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="430:439" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="575:586" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="641:651" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="741:752" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="797:807" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -442,9 +446,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
-            <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
-            <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="430:439" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="575:586" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="641:651" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="741:752" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="797:807" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -509,12 +515,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SitesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3402778">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.30555555">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding>
-            <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
-            <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
-            <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="430:439" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="575:586" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="641:651" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="741:752" placeholder="..." />
+            <marker date="1447829373000" expanded="true" signature="797:807" placeholder="..." />
           </folding>
         </state>
       </provider>

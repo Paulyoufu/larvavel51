@@ -24,10 +24,13 @@ class SitesController extends Controller
     {
        // $name = '<span style="color:red">jelly</span>';
         //return view('sites.about')->with('name',$name);
-        $data = [];
-        $data['first']='<span style="color:green">Jelly</span>';
-        $data['last']='<span style="color:blue">Green</span>';
-        return view('sites.about',$data);
+       // $data = [];
+       // $data['first']='<span style="color:green">Jelly</span>';
+        //$data['last']='<span style="color:blue">Green</span>';
+      //  return view('sites.about',$data);
+        $first='<span style="color:green">Jelly</span>';
+        $last='<span style="color:blue">Green</span>';
+        return view("sites.about",compact("first","last"));
     }
     /**
      * Show the form for creating a new resource.
