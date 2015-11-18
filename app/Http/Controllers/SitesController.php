@@ -100,6 +100,8 @@ class SitesController extends Controller
 
     public function contact()
     {
-        return view("sites.contact");
+        $first='<span style="color:green">Jelly</span>';
+        $last='<span style="color:blue">Green</span>';
+        return view("sites.contact",compact("first","last"));
     }
 }

@@ -1,4 +1,12 @@
 @extends("app")
 @section("content")
-    <h1>hello</h1>
+    @if($first == 'jim')
+       <h1>{!! $first !!}}  </h1>
+    @else
+        <h1>else</h1>
+    @endif
+@stop
+
+@section('foot')
+    <script>alert("this is foot page");</script>
 @stop

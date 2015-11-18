@@ -7,5 +7,6 @@
 </head>
 <body>
      @yield("content")
+     @yield("foot")
 </body>
 </html>
