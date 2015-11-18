@@ -28,9 +28,10 @@ class SitesController extends Controller
        // $data['first']='<span style="color:green">Jelly</span>';
         //$data['last']='<span style="color:blue">Green</span>';
       //  return view('sites.about',$data);
+        $people = ['taylor otwell','jeffray way','happy peter'];
         $first='<span style="color:green">Jelly</span>';
         $last='<span style="color:blue">Green</span>';
-        return view("sites.about",compact("first","last"));
+        return view("sites.about",compact('people'));
     }
     /**
      * Show the form for creating a new resource.

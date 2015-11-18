@@ -1,5 +1,11 @@
 @extends('app')
 @section('content')
-    <h1>{!! $first !!}</h1>
-    <h1>{!! $last !!}</h1>
+    <h3>people i admire</h3>
+    <ul>
+        @foreach($people as $person)
+            <li>
+                {{ $person }}
+            </li>
+        @endforeach
+    </ul>
 @stop

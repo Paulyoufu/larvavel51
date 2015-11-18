@@ -1,10 +1,13 @@
 @extends("app")
 @section("content")
-    @if($first == 'jim')
-       <h1>{!! $first !!}}  </h1>
-    @else
-        <h1>else</h1>
-    @endif
+  <h3>people i admire</h3>
+  <ul>
+      @foreach($people as $person)
+          <li>
+              {{ $person }}
+          </li>
+      @endforeach
+  </ul>
 @stop
 
 @section('foot')
