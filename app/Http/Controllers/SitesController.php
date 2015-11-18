@@ -22,7 +22,8 @@ class SitesController extends Controller
 
     public function about()
     {
-        return view('sites.about');
+        $name = '<span style="color:red">jelly</span>';
+        return view('sites.about')->with('name',$name);
     }
     /**
      * Show the form for creating a new resource.
