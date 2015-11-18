@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-<!--<h1>about me <?= $name; ?><h1>{{ $name }}</h1></h1>-->
-<h1>{!! $name !!}</h1>
+    <h1>{!! $first !!}</h1>
+    <h1>{!! $last !!}</h1>
 </body>
 </html>
