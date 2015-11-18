@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd794dd-b95e-48b2-b4e9-d50f443a2511" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SitesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SitesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sites/about.blade.php" afterPath="$PROJECT_DIR$/resources/views/sites/about.blade.php" />
     </list>
     <ignored path="larvavel51.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,12 +49,12 @@
       <file leaf-file-name="SitesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SitesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5555556">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.3402778">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
-                <marker date="1447828420000" expanded="true" signature="430:439" placeholder="..." />
-                <marker date="1447828420000" expanded="true" signature="593:604" placeholder="..." />
-                <marker date="1447828420000" expanded="true" signature="656:666" placeholder="..." />
+                <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
+                <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
+                <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -137,8 +136,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="168" />
+    <option name="x" value="-181" />
+    <option name="y" value="479" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -359,8 +358,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="168" width="1440" height="813" extended-state="0" />
-    <editor active="false" />
+    <frame x="-181" y="479" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26466382" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -369,7 +368,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -413,9 +412,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447828420000" expanded="true" signature="430:439" placeholder="..." />
-            <marker date="1447828420000" expanded="true" signature="593:604" placeholder="..." />
-            <marker date="1447828420000" expanded="true" signature="656:666" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -443,9 +442,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447828420000" expanded="true" signature="430:439" placeholder="..." />
-            <marker date="1447828420000" expanded="true" signature="593:604" placeholder="..." />
-            <marker date="1447828420000" expanded="true" signature="656:666" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -510,12 +509,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SitesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5555556">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3402778">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
-            <marker date="1447828420000" expanded="true" signature="430:439" placeholder="..." />
-            <marker date="1447828420000" expanded="true" signature="593:604" placeholder="..." />
-            <marker date="1447828420000" expanded="true" signature="656:666" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="430:439" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="571:582" placeholder="..." />
+            <marker date="1447828960000" expanded="true" signature="635:645" placeholder="..." />
           </folding>
         </state>
       </provider>
