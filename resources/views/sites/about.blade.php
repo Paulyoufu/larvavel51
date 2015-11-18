@@ -1,11 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+@extends('app')
+@section('content')
     <h1>{!! $first !!}</h1>
     <h1>{!! $last !!}</h1>
-</body>
-</html>
+@stop

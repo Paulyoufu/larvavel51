@@ -97,4 +97,9 @@ class SitesController extends Controller
     {
         //
     }
+
+    public function contact()
+    {
+        return view("sites.contact");
+    }
 }

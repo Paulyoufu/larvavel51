@@ -24,3 +24,4 @@ Route::get('/', 'SitesController@index'
 );
 Route::get('/', 'SitesController@about'
 );
+Route::get('contact','SitesController@contact');
