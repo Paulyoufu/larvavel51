@@ -20,10 +20,6 @@ class ArticlesController extends Controller
         $articles = Article::all();
        // return view('articles.index',compact('articles'));
        return view('articles.index',compact('articles'));
-
-
-
-
     }
 
     /**
@@ -33,7 +29,7 @@ class ArticlesController extends Controller
      */
     public function create()
     {
-        //
+       return view("articles.create");
     }
 
     /**
@@ -44,7 +40,7 @@ class ArticlesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      // dd($request->all());
     }
 
     /**
