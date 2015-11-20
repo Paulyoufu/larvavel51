@@ -28,4 +28,4 @@ Route::get('contact','SitesController@contact');
 Route::get('/articles','ArticlesController@index');
 Route::get('/articles/create','ArticlesController@create');
 Route::get('/articles/{id}','ArticlesController@show');
-//Route::post('/articles','ArticlesController@store');
+Route::post('/articles','ArticlesController@store');

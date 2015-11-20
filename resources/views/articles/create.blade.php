@@ -1,7 +1,7 @@
 @extends("app")
 @section('content')
     <h1>whrite new post</h1>
-    {!! Form::open() !!}
+    {!! Form::open(['url'=>'/articles']) !!}
       <div class="form-groups">
         {!! Form::label('title')  !!}
         {!! Form::text('title',null,['class'=>'form-control']) !!} <!--有三个参数 第二个为null代表默认值为空,第三参数代表属性-->
