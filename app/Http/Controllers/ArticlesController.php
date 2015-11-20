@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Article;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -17,7 +18,8 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
+        $articles = Article::latest()->get();//将最新的文章放在最前面
+       // $articles = Article::all();
        // return view('articles.index',compact('articles'));
        return view('articles.index',compact('articles'));
     }
@@ -25,7 +27,7 @@ class ArticlesController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Httesponse
      */
     public function create()
     {
@@ -40,7 +42,14 @@ class ArticlesController extends Controller
      */
     public function store(Request $request)
     {
-      dd($request->all());
+      //dd($request->all());
+        //post data
+        // store database
+        // redirect
+        $input = $request->all();
+        $input['published_at']=Carbon::now();
+        Article::create($input);
+        return redirect('articles');
     }
 
     /**
