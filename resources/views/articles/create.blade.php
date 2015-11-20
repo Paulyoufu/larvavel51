@@ -11,5 +11,11 @@
         {!! Form::textarea('content',null,['class' => 'form-control']) !!}
         {!! Form::submit('发表文章',['class'=>'btn btn-primary form-controll']) !!}
       </div>
+    <!-- field -->
+    <div class="form-group">
+        {!! Form::label('published_at','published_at:')!!}
+        {!! Form::input('date','published_at',date('Y-m-d'),['class' => 'form-control']) !!}
+    </div>
+
     {!! Form::close() !!}
 @stop

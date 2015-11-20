@@ -18,7 +18,7 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::latest()->get();//将最新的文章放在最前面
+        $articles = Article::latest()->Published()->get();//将最新的文章放在最前面
        // $articles = Article::all();
        // return view('articles.index',compact('articles'));
        return view('articles.index',compact('articles'));
@@ -46,9 +46,9 @@ class ArticlesController extends Controller
         //post data
         // store database
         // redirect
-        $input = $request->all();
-        $input['published_at']=Carbon::now();
-        Article::create($input);
+      //  $input = $request->all();
+       // $input['published_at']=Carbon::now();
+        Article::create($request->all());
         return redirect('articles');
     }
 
@@ -61,10 +61,12 @@ class ArticlesController extends Controller
     public function show($id)
     {
         $article = Article::findOrFail($id);
-       // if(is_null($article))
+       //dd($article->published_at);显示时间
+        // if(is_null($article))
        // {
         //    abort(404);
        // }
+        dd($article->created_at->diffForHumans());//显示多少天之前
         return view('articles.show',compact('article'));
     }
 
