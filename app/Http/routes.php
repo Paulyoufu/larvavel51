@@ -25,3 +25,5 @@ Route::get('/', 'SitesController@index'
 Route::get('/', 'SitesController@about'
 );
 Route::get('contact','SitesController@contact');
+Route::get('/articles','ArticlesController@index');
+Route::get('/articles/{id}','ArticlesController@show');
