@@ -10,7 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+Auth::loginUsingId(2);
 Route::get('contact','SitesController@contact');
 Route::resource('articles','ArticlesController');
 //Route::get('/articles','ArticlesController@index');

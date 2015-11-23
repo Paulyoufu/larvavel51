@@ -50,7 +50,8 @@ class ArticlesController extends Controller
         // redirect
       //  $input = $request->all();
        // $input['published_at']=Carbon::now();
-        Article::create($request->all());
+        //Article::create($request->all());
+        Article::create(array_merge(['user_id'=>\Auth::user()->id],$request->all()));
         return redirect('articles');
     }
 
