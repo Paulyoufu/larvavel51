@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-    <h1>articles</h1>
+        <!--<h1>articles:</h1>--> 
     <hr>
     @foreach($articles as $article)
             <h2><a href="/articles/{{ $article->id }}">{{ $article->title }} one</a></h2>

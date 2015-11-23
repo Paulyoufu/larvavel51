@@ -18,9 +18,11 @@ class ArticlesController extends Controller
      */
     public function index()
     {
+
         $articles = Article::latest()->Published()->get();//将最新的文章放在最前面
        // $articles = Article::all();
        // return view('articles.index',compact('articles'));
+      //  dd(\Auth::user());
        return view('articles.index',compact('articles'));
     }
 
