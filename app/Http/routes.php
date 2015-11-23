@@ -10,7 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Auth::loginUsingId(2);
+//Auth::loginUsingId(2);
 Route::get('contact','SitesController@contact');
 Route::resource('articles','ArticlesController');
 //Route::get('/articles','ArticlesController@index');
@@ -20,9 +20,9 @@ Route::resource('articles','ArticlesController');
 
 
 Route::get('auth/login','Auth\AuthController@getLogin');
-Route::get('auth/login','Auth\AuthController@postLogin');
+Route::post('auth/login','Auth\AuthController@postLogin');
 Route::get('auth/register','Auth\AuthController@getRegister');
-Route::get('auth/register','Auth\AuthController@postRegister');
+Route::post('auth/register','Auth\AuthController@postRegister');
 Route::get('auth/logout','Auth\AuthController@getLogout');
 Route::get('/', function () {
     return view('welcome');
