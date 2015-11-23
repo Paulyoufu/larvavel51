@@ -78,8 +78,8 @@ class ArticlesController extends Controller
      */
     public function edit($id)
     {
-       // $article = Article::findOrFail($id);
-       // return view
+        $article = Article::findOrFail($id); //攻取文章
+        return view('articles.edit',compact('article'));
     }
 
     /**
