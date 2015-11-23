@@ -78,7 +78,8 @@ class ArticlesController extends Controller
      */
     public function edit($id)
     {
-        //
+       // $article = Article::findOrFail($id);
+       // return view
     }
 
     /**
