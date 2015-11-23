@@ -1,6 +1,7 @@
 @extends('app')
 @section('content')
-    <h1>articles: {{ Auth::user()->name }}</h1>
+    <h1>articles: {{ Auth::user()->name }}   {{ Auth::user()->id }}</h1>
+    <h1> {{ Auth::user()->user_id  }} </h1>
     <hr>
     @foreach($articles as $article)
             <h2><a href="/articles/{{ $article->id }}">{{ $article->title }} one</a></h2>

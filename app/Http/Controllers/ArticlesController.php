@@ -20,10 +20,7 @@ class ArticlesController extends Controller
     {
       //  dd(\Auth::user());
         $articles = Article::latest()->Published()->get();//将最新的文章放在最前面
-       // $articles = Article::all();
-       // return view('articles.index',compact('articles'));
-      //  dd(\Auth::user());
-       return view('articles.index',compact('articles'));
+        return view('articles.index',compact('articles'));
     }
 
     /**
@@ -44,15 +41,8 @@ class ArticlesController extends Controller
      */
     public function store(Requests\CreateArticleRequest $request)
     {
-      //dd($request->all());
-        //post data
-        // store database
-        // redirect
-      //  $input = $request->all();
-       // $input['published_at']=Carbon::now();
-        //Article::create($request->all());
         Article::create(array_merge(['user_id'=>\Auth::user()->id],$request->all()));
-        return redirect('articles');
+        return redirect('/articles');
     }
 
     /**
@@ -81,9 +71,6 @@ class ArticlesController extends Controller
      */
     public function edit($id)
     {
-      //  $article = Article::findOrFail($id); //攻取文章
-      //  return view('articles.edit',compact('article'));
-
         $article = Article::findOrFail($id);
         return view('articles.edit',compact('article'));
 
@@ -98,7 +85,7 @@ class ArticlesController extends Controller
      */
     public function update(Requests\CreateArticleRequest $request, $id)
     {
-    $article = Article::findOrFail($id);
+        $article = Article::findOrFail($id);
         $article->update($request->all());
         return redirect('/articles');
     }

@@ -39,6 +39,6 @@ class User extends Model implements AuthenticatableContract,
 
     public function articles()
     {
-        return $this->hasMany('App\Article');//$usr->articles 取到所有属于他的文章
+        return $this->hasMany('App\Article');//$user->articles 取到所有属于他的文章
     }
 }
