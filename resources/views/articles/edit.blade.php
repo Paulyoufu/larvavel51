@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
     <h1>{{ $article->tilte }}</h1>
-    {!! Form::model($article,['method'=>'PATCH','url'=>'/articles']) !!}
+    {!! Form::model($article,['method'=>'PATCH','url'=>'/articles/'.$article->id]) !!}
     <div class="form-groups">
         {!! Form::label('title')  !!}
         {!! Form::text('title',null,['class'=>'form-control']) !!} <!--有三个参数 第二个为null代表默认值为空,第三参数代表属性-->
@@ -19,11 +19,5 @@
 
     {!! Form::close() !!}
 
-    @if($errors->any())
-        <ul class="list-group">
-            @foreach($errors->all() as $error)
-                <li class="list-group-item list-group-item-danger">{{ $error }}</li>
-            @endforeach
-        </ul>
-    @endif
+      @include('errors.list')
 @stop

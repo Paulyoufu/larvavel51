@@ -66,7 +66,7 @@ class ArticlesController extends Controller
        // {
         //    abort(404);
        // }
-        dd($article->created_at->diffForHumans());//显示多少天之前
+       // dd($article->created_at->diffForHumans());//显示多少天之前
         return view('articles.show',compact('article'));
     }
 
@@ -78,8 +78,12 @@ class ArticlesController extends Controller
      */
     public function edit($id)
     {
-        $article = Article::findOrFail($id); //攻取文章
+      //  $article = Article::findOrFail($id); //攻取文章
+      //  return view('articles.edit',compact('article'));
+
+        $article = Article::findOrFail($id);
         return view('articles.edit',compact('article'));
+
     }
 
     /**
@@ -89,9 +93,11 @@ class ArticlesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Requests\CreateArticleRequest $request, $id)
     {
-        //
+    $article = Article::findOrFail($id);
+        $article->update($request->all());
+        return redirect('/articles');
     }
 
     /**
