@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model
 {
-    protected $fillable=['title','content','publshed_t'];
+    protected $fillable=['title','content','publshed_t', 'user_id'];
     protected $dates= ['published_at'];
 
     //setTitleAttribute

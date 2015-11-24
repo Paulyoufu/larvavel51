@@ -41,6 +41,7 @@ class ArticlesController extends Controller
      */
     public function store(Requests\CreateArticleRequest $request)
     {
+       // echo 'Auth::user()->id';
         Article::create(array_merge(['user_id'=>\Auth::user()->id],$request->all()));
         return redirect('/articles');
     }
